@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="kgb-suite">
+	<test name="LITPlvmapiKGBSuite" preserve-order="true">
+		<classes>
+			<class name="com.ericsson.nms.litp.taf.test.cases.LITPlvmapiTestRunner">
+			  <methods>
+			    <include name="upgradeERIClitplvmapiRPM"/>
+			  </methods> 
+			</class>
+		</classes>
+	</test>
+</suite>
